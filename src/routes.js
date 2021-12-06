@@ -1,10 +1,12 @@
 import { Route, Routes } from 'react-router-dom'
+import Login from './pages/login/Login'
 
 const routes = [
     <Routes>
         {/* Frontend */}
+        <Route path="/" exect={true} element={<Login />} />
         {/*
-        <Route path="/" exect={true} element={<Home />} />
+        
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         */}
